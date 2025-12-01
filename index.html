@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" id="top">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,19 +25,13 @@
                 </div>
             </div>
             <div class="header__right">
-                <nav class="header-nav" id="js-nav">
+                <nav class="header-nav">
                     <ul>
                         <li><a href="#features"><i class="fa-solid fa-star"></i><span>特長</span></a></li>
                         <li><a href="#services"><i class="fa-solid fa-screwdriver-wrench"></i><span>サービス</span></a></li>
                         <li><a href="#flow"><i class="fa-solid fa-list-check"></i><span>ご利用の流れ</span></a></li>
                         <li><a href="#faq"><i class="fa-solid fa-circle-question"></i><span>よくある質問</span></a></li>
                         <li><a href="#contact"><i class="fa-solid fa-envelope"></i><span>お問い合わせ</span></a></li>
-                        <li class="nav-tel-mobile">
-                            <a href="tel:090-1234-5678" class="btn btn-tel">
-                                <i class="fa-solid fa-phone"></i>
-                                <span>090-1234-5678</span>
-                            </a>
-                        </li>
                     </ul>
                 </nav>
                 <a href="tel:090-1234-5678" class="btn btn-tel header__tel-btn">
@@ -89,6 +83,7 @@
                         <p>専門用語を使いません。PCが苦手な方にも分かりやすい言葉で、お困りごとの原因と解決策を丁寧にご説明します。大崎市に根ざした地域密着のサービスだからこそ、お客様一人ひとりに寄り添ったサポートをお約束します。</p>
                     </div>
                 </div>
+                <a href="#top" class="back-to-top">↑トップへ</a>
             </div>
         </section>
 
@@ -124,6 +119,7 @@
                         </div>
                     </div>
                 </div>
+                <a href="#top" class="back-to-top">↑トップへ</a>
             </div>
         </section>
 
@@ -162,6 +158,7 @@
                         <p class="flow-step__text">お客様にPCの動作をご確認いただき、問題が解決したことを確認後、料金をお支払いいただきます。現金または各種お振込みに対応しています。</p>
                     </div>
                 </div>
+                <a href="#top" class="back-to-top">↑トップへ</a>
             </div>
         </section>
         
@@ -214,6 +211,7 @@
                         </div>
                     </details>
                 </div>
+                <a href="#top" class="back-to-top">↑トップへ</a>
             </div>
         </section>
 
@@ -255,6 +253,7 @@
                         <button type="submit" class="btn btn-primary">内容を送信する</button>
                     </div>
                 </form>
+                <a href="#top" class="back-to-top is-filled">↑トップへ</a>
             </div>
         </section>
     </main>
@@ -284,7 +283,25 @@
         </div>
     </footer>
 
+    <nav class="drawer-nav" id="js-nav">
+        <ul>
+            <li><a href="#top"><i class="fa-solid fa-house"></i><span>トップページ</span></a></li>
+            <li><a href="#features"><i class="fa-solid fa-star"></i><span>特長</span></a></li>
+            <li><a href="#services"><i class="fa-solid fa-screwdriver-wrench"></i><span>サービス</span></a></li>
+            <li><a href="#flow"><i class="fa-solid fa-list-check"></i><span>ご利用の流れ</span></a></li>
+            <li><a href="#faq"><i class="fa-solid fa-circle-question"></i><span>よくある質問</span></a></li>
+            <li><a href="#contact"><i class="fa-solid fa-envelope"></i><span>お問い合わせ</span></a></li>
+            <li class="nav-tel-mobile">
+                <p class="nav-tel-mobile__text">気軽にお問い合わせください。</p>
+                <a href="tel:090-1234-5678" class="btn btn-tel">
+                    <i class="fa-solid fa-phone"></i>
+                    <span>090-1234-5678</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
     <div id="js-drawer-overlay" class="drawer-overlay"></div>
+
     <script src="js/script.js"></script>
 </body>
 </html>
