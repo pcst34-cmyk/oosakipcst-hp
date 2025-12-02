@@ -32,26 +32,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // 2. Hero Image Slider
-    const heroSlider = document.getElementById('js-hero-slider');
-    if (heroSlider) {
-        const slides = heroSlider.querySelectorAll('.hero__slide-image');
-        let currentSlide = 0;
-        const slideInterval = 5000; // 5 seconds
-
-        function nextSlide() {
-            if (slides.length > 0) {
-                slides[currentSlide].classList.remove('is-active');
-                currentSlide = (currentSlide + 1) % slides.length;
-                slides[currentSlide].classList.add('is-active');
-            }
-        }
-
-        if (slides.length > 1) {
-            setInterval(nextSlide, slideInterval);
-        }
-    }
-
     // 3. Postal Code to Address Autofill Logic
     const zipSearchButton = document.getElementById('zip-search');
     const zipInput = document.getElementById('zip');
